@@ -1,0 +1,27 @@
+-   repo: git://github.com/pre-commit/pre-commit-hooks
+    sha: v0.6.0
+    hooks:
+    -   id: trailing-whitespace
+        language_version: python2.7
+        exclude: project/static/admin/fonts/LICENSE.txt
+    -   id: end-of-file-fixer
+        language_version: python2.7
+    -   id: autopep8-wrapper
+        language_version: python2.7
+        exclude: project/apps/foodtrain/migrations/*
+    -   id: flake8
+        exclude: project/apps/foodtrain/migrations/*|project/wsgi.py
+        language_version: python2.7
+    -   id: requirements-txt-fixer
+        language_version: python2.7
+
+-   repo: git@github.com:asottile/reorder_python_imports.git
+    sha: v0.3.0
+    hooks:
+    -   id: reorder-python-imports
+        language_version: python2.7
+        exclude: docs/source/conf.py
+        args: [
+            '--add-import', 'from __future__ import absolute_import',
+            '--add-import', 'from __future__ import unicode_literals',
+        ]

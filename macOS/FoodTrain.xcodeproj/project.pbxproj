@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		146E760A1DD4802D001B8CF2 /* Foodtrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146E76091DD4802D001B8CF2 /* Foodtrain.swift */; };
+		146E760C1DD4A044001B8CF2 /* FoodtrainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146E760B1DD4A044001B8CF2 /* FoodtrainManager.swift */; };
+		14A6D3C11E0EE2E7008BEA69 /* YLPBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3941E0EE2E7008BEA69 /* YLPBusiness.m */; };
+		14A6D3C21E0EE2E7008BEA69 /* YLPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3961E0EE2E7008BEA69 /* YLPCategory.m */; };
+		14A6D3C31E0EE2E7008BEA69 /* YLPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3981E0EE2E7008BEA69 /* YLPClient.m */; };
+		14A6D3C41E0EE2E7008BEA69 /* YLPClient+Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D39A1E0EE2E7008BEA69 /* YLPClient+Business.m */; };
+		14A6D3C51E0EE2E7008BEA69 /* YLPClient+PhoneSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D39C1E0EE2E7008BEA69 /* YLPClient+PhoneSearch.m */; };
+		14A6D3C61E0EE2E7008BEA69 /* YLPClient+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D39E1E0EE2E7008BEA69 /* YLPClient+Search.m */; };
+		14A6D3C71E0EE2E7008BEA69 /* YLPCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3A11E0EE2E7008BEA69 /* YLPCoordinate.m */; };
+		14A6D3C81E0EE2E7008BEA69 /* YLPCoordinateDelta.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3A31E0EE2E7008BEA69 /* YLPCoordinateDelta.m */; };
+		14A6D3C91E0EE2E7008BEA69 /* YLPDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3A51E0EE2E7008BEA69 /* YLPDeal.m */; };
+		14A6D3CA1E0EE2E7008BEA69 /* YLPDealOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3A71E0EE2E7008BEA69 /* YLPDealOption.m */; };
+		14A6D3CB1E0EE2E8008BEA69 /* YLPGeoBoundingBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3A91E0EE2E7008BEA69 /* YLPGeoBoundingBox.m */; };
+		14A6D3CC1E0EE2E8008BEA69 /* YLPGeoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3AB1E0EE2E7008BEA69 /* YLPGeoCoordinate.m */; };
+		14A6D3CD1E0EE2E8008BEA69 /* YLPGiftCertificate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3AD1E0EE2E7008BEA69 /* YLPGiftCertificate.m */; };
+		14A6D3CE1E0EE2E8008BEA69 /* YLPGiftCertificateOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3AF1E0EE2E7008BEA69 /* YLPGiftCertificateOption.m */; };
+		14A6D3CF1E0EE2E8008BEA69 /* YLPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3B11E0EE2E7008BEA69 /* YLPLocation.m */; };
+		14A6D3D01E0EE2E8008BEA69 /* YLPPhoneSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3B31E0EE2E7008BEA69 /* YLPPhoneSearch.m */; };
+		14A6D3D11E0EE2E8008BEA69 /* YLPQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3B51E0EE2E7008BEA69 /* YLPQuery.m */; };
+		14A6D3D21E0EE2E8008BEA69 /* YLPRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3B81E0EE2E7008BEA69 /* YLPRegion.m */; };
+		14A6D3D31E0EE2E8008BEA69 /* YLPReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3BB1E0EE2E7008BEA69 /* YLPReview.m */; };
+		14A6D3D41E0EE2E8008BEA69 /* YLPSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3BD1E0EE2E7008BEA69 /* YLPSearch.m */; };
+		14A6D3D51E0EE2E8008BEA69 /* YLPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A6D3C01E0EE2E7008BEA69 /* YLPUser.m */; };
+		14C8B10D1DD5941400E3FA46 /* AutoCompleteTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C8B10C1DD5941400E3FA46 /* AutoCompleteTextField.swift */; };
+		448057F220E6A801A92F43B7 /* Pods_FoodTrainUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BD194FC96543D35B40259A8 /* Pods_FoodTrainUITests.framework */; };
+		661159325B9D21EE87FF97E1 /* Pods_FoodTrainTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F64260D65DD40D96EB7421C /* Pods_FoodTrainTests.framework */; };
+		6651D3B41DD4F1C200428EA7 /* ParticipantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651D3B31DD4F1C200428EA7 /* ParticipantsViewController.swift */; };
+		6651D3B61DD4F30F00428EA7 /* ParticipantsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651D3B51DD4F30F00428EA7 /* ParticipantsCell.swift */; };
+		66C12A9C1DD47CCD0058A82E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C12A9B1DD47CCD0058A82E /* AppDelegate.swift */; };
+		66C12A9E1DD47CCD0058A82E /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C12A9D1DD47CCD0058A82E /* MainMenuViewController.swift */; };
+		66C12AA01DD47CCD0058A82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C12A9F1DD47CCD0058A82E /* Assets.xcassets */; };
+		66C12AA31DD47CCD0058A82E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C12AA11DD47CCD0058A82E /* Main.storyboard */; };
+		66C12AAE1DD47CCD0058A82E /* FoodTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C12AAD1DD47CCD0058A82E /* FoodTrainTests.swift */; };
+		66C12AB91DD47CCD0058A82E /* FoodTrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C12AB81DD47CCD0058A82E /* FoodTrainUITests.swift */; };
+		66C12ACB1DD4A4A60058A82E /* TrainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C12ACA1DD4A4A60058A82E /* TrainCell.swift */; };
+		F30B89905BFE5A0260199F29 /* Pods_FoodTrain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF597E438EB438309FE114DC /* Pods_FoodTrain.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66C12AAA1DD47CCD0058A82E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C12A901DD47CCD0058A82E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C12A971DD47CCD0058A82E;
+			remoteInfo = FoodTrain;
+		};
+		66C12AB51DD47CCD0058A82E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C12A901DD47CCD0058A82E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C12A971DD47CCD0058A82E;
+			remoteInfo = FoodTrain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10273BB3B4913B8EDEA75924 /* Pods-FoodTrain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrain.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrain/Pods-FoodTrain.release.xcconfig"; sourceTree = "<group>"; };
+		146E76091DD4802D001B8CF2 /* Foodtrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foodtrain.swift; sourceTree = "<group>"; };
+		146E760B1DD4A044001B8CF2 /* FoodtrainManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodtrainManager.swift; sourceTree = "<group>"; };
+		14A6D3921E0EE2E7008BEA69 /* YelpAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YelpAPI.h; path = YelpAPI/YelpAPI.h; sourceTree = "<group>"; };
+		14A6D3931E0EE2E7008BEA69 /* YLPBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPBusiness.h; path = YelpAPI/YLPBusiness.h; sourceTree = "<group>"; };
+		14A6D3941E0EE2E7008BEA69 /* YLPBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPBusiness.m; path = YelpAPI/YLPBusiness.m; sourceTree = "<group>"; };
+		14A6D3951E0EE2E7008BEA69 /* YLPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPCategory.h; path = YelpAPI/YLPCategory.h; sourceTree = "<group>"; };
+		14A6D3961E0EE2E7008BEA69 /* YLPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPCategory.m; path = YelpAPI/YLPCategory.m; sourceTree = "<group>"; };
+		14A6D3971E0EE2E7008BEA69 /* YLPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPClient.h; path = YelpAPI/YLPClient.h; sourceTree = "<group>"; };
+		14A6D3981E0EE2E7008BEA69 /* YLPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPClient.m; path = YelpAPI/YLPClient.m; sourceTree = "<group>"; };
+		14A6D3991E0EE2E7008BEA69 /* YLPClient+Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Business.h"; path = "YelpAPI/YLPClient+Business.h"; sourceTree = "<group>"; };
+		14A6D39A1E0EE2E7008BEA69 /* YLPClient+Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Business.m"; path = "YelpAPI/YLPClient+Business.m"; sourceTree = "<group>"; };
+		14A6D39B1E0EE2E7008BEA69 /* YLPClient+PhoneSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YLPClient+PhoneSearch.h"; path = "YelpAPI/YLPClient+PhoneSearch.h"; sourceTree = "<group>"; };
+		14A6D39C1E0EE2E7008BEA69 /* YLPClient+PhoneSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+PhoneSearch.m"; path = "YelpAPI/YLPClient+PhoneSearch.m"; sourceTree = "<group>"; };
+		14A6D39D1E0EE2E7008BEA69 /* YLPClient+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Search.h"; path = "YelpAPI/YLPClient+Search.h"; sourceTree = "<group>"; };
+		14A6D39E1E0EE2E7008BEA69 /* YLPClient+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Search.m"; path = "YelpAPI/YLPClient+Search.m"; sourceTree = "<group>"; };
+		14A6D39F1E0EE2E7008BEA69 /* YLPClientPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPClientPrivate.h; path = YelpAPI/YLPClientPrivate.h; sourceTree = "<group>"; };
+		14A6D3A01E0EE2E7008BEA69 /* YLPCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPCoordinate.h; path = YelpAPI/YLPCoordinate.h; sourceTree = "<group>"; };
+		14A6D3A11E0EE2E7008BEA69 /* YLPCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPCoordinate.m; path = YelpAPI/YLPCoordinate.m; sourceTree = "<group>"; };
+		14A6D3A21E0EE2E7008BEA69 /* YLPCoordinateDelta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPCoordinateDelta.h; path = YelpAPI/YLPCoordinateDelta.h; sourceTree = "<group>"; };
+		14A6D3A31E0EE2E7008BEA69 /* YLPCoordinateDelta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPCoordinateDelta.m; path = YelpAPI/YLPCoordinateDelta.m; sourceTree = "<group>"; };
+		14A6D3A41E0EE2E7008BEA69 /* YLPDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPDeal.h; path = YelpAPI/YLPDeal.h; sourceTree = "<group>"; };
+		14A6D3A51E0EE2E7008BEA69 /* YLPDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPDeal.m; path = YelpAPI/YLPDeal.m; sourceTree = "<group>"; };
+		14A6D3A61E0EE2E7008BEA69 /* YLPDealOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPDealOption.h; path = YelpAPI/YLPDealOption.h; sourceTree = "<group>"; };
+		14A6D3A71E0EE2E7008BEA69 /* YLPDealOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPDealOption.m; path = YelpAPI/YLPDealOption.m; sourceTree = "<group>"; };
+		14A6D3A81E0EE2E7008BEA69 /* YLPGeoBoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPGeoBoundingBox.h; path = YelpAPI/YLPGeoBoundingBox.h; sourceTree = "<group>"; };
+		14A6D3A91E0EE2E7008BEA69 /* YLPGeoBoundingBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPGeoBoundingBox.m; path = YelpAPI/YLPGeoBoundingBox.m; sourceTree = "<group>"; };
+		14A6D3AA1E0EE2E7008BEA69 /* YLPGeoCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPGeoCoordinate.h; path = YelpAPI/YLPGeoCoordinate.h; sourceTree = "<group>"; };
+		14A6D3AB1E0EE2E7008BEA69 /* YLPGeoCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPGeoCoordinate.m; path = YelpAPI/YLPGeoCoordinate.m; sourceTree = "<group>"; };
+		14A6D3AC1E0EE2E7008BEA69 /* YLPGiftCertificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPGiftCertificate.h; path = YelpAPI/YLPGiftCertificate.h; sourceTree = "<group>"; };
+		14A6D3AD1E0EE2E7008BEA69 /* YLPGiftCertificate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPGiftCertificate.m; path = YelpAPI/YLPGiftCertificate.m; sourceTree = "<group>"; };
+		14A6D3AE1E0EE2E7008BEA69 /* YLPGiftCertificateOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPGiftCertificateOption.h; path = YelpAPI/YLPGiftCertificateOption.h; sourceTree = "<group>"; };
+		14A6D3AF1E0EE2E7008BEA69 /* YLPGiftCertificateOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPGiftCertificateOption.m; path = YelpAPI/YLPGiftCertificateOption.m; sourceTree = "<group>"; };
+		14A6D3B01E0EE2E7008BEA69 /* YLPLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPLocation.h; path = YelpAPI/YLPLocation.h; sourceTree = "<group>"; };
+		14A6D3B11E0EE2E7008BEA69 /* YLPLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPLocation.m; path = YelpAPI/YLPLocation.m; sourceTree = "<group>"; };
+		14A6D3B21E0EE2E7008BEA69 /* YLPPhoneSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPPhoneSearch.h; path = YelpAPI/YLPPhoneSearch.h; sourceTree = "<group>"; };
+		14A6D3B31E0EE2E7008BEA69 /* YLPPhoneSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPPhoneSearch.m; path = YelpAPI/YLPPhoneSearch.m; sourceTree = "<group>"; };
+		14A6D3B41E0EE2E7008BEA69 /* YLPQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPQuery.h; path = YelpAPI/YLPQuery.h; sourceTree = "<group>"; };
+		14A6D3B51E0EE2E7008BEA69 /* YLPQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPQuery.m; path = YelpAPI/YLPQuery.m; sourceTree = "<group>"; };
+		14A6D3B61E0EE2E7008BEA69 /* YLPQueryPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPQueryPrivate.h; path = YelpAPI/YLPQueryPrivate.h; sourceTree = "<group>"; };
+		14A6D3B71E0EE2E7008BEA69 /* YLPRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPRegion.h; path = YelpAPI/YLPRegion.h; sourceTree = "<group>"; };
+		14A6D3B81E0EE2E7008BEA69 /* YLPRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPRegion.m; path = YelpAPI/YLPRegion.m; sourceTree = "<group>"; };
+		14A6D3B91E0EE2E7008BEA69 /* YLPResponsePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPResponsePrivate.h; path = YelpAPI/YLPResponsePrivate.h; sourceTree = "<group>"; };
+		14A6D3BA1E0EE2E7008BEA69 /* YLPReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPReview.h; path = YelpAPI/YLPReview.h; sourceTree = "<group>"; };
+		14A6D3BB1E0EE2E7008BEA69 /* YLPReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPReview.m; path = YelpAPI/YLPReview.m; sourceTree = "<group>"; };
+		14A6D3BC1E0EE2E7008BEA69 /* YLPSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPSearch.h; path = YelpAPI/YLPSearch.h; sourceTree = "<group>"; };
+		14A6D3BD1E0EE2E7008BEA69 /* YLPSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPSearch.m; path = YelpAPI/YLPSearch.m; sourceTree = "<group>"; };
+		14A6D3BE1E0EE2E7008BEA69 /* YLPSortType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPSortType.h; path = YelpAPI/YLPSortType.h; sourceTree = "<group>"; };
+		14A6D3BF1E0EE2E7008BEA69 /* YLPUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YLPUser.h; path = YelpAPI/YLPUser.h; sourceTree = "<group>"; };
+		14A6D3C01E0EE2E7008BEA69 /* YLPUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YLPUser.m; path = YelpAPI/YLPUser.m; sourceTree = "<group>"; };
+		14C8B10C1DD5941400E3FA46 /* AutoCompleteTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoCompleteTextField.swift; sourceTree = "<group>"; };
+		14C8B1181DD5A03B00E3FA46 /* FoodTrain-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodTrain-Bridging-Header.h"; sourceTree = "<group>"; };
+		65A015185B66626D79C4AE96 /* Pods-FoodTrainTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrainTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrainTests/Pods-FoodTrainTests.release.xcconfig"; sourceTree = "<group>"; };
+		6651D3B31DD4F1C200428EA7 /* ParticipantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantsViewController.swift; sourceTree = "<group>"; };
+		6651D3B51DD4F30F00428EA7 /* ParticipantsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantsCell.swift; sourceTree = "<group>"; };
+		66C12A981DD47CCD0058A82E /* FoodTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C12A9B1DD47CCD0058A82E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66C12A9D1DD47CCD0058A82E /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		66C12A9F1DD47CCD0058A82E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C12AA21DD47CCD0058A82E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66C12AA41DD47CCD0058A82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C12AA91DD47CCD0058A82E /* FoodTrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C12AAD1DD47CCD0058A82E /* FoodTrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrainTests.swift; sourceTree = "<group>"; };
+		66C12AAF1DD47CCD0058A82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C12AB41DD47CCD0058A82E /* FoodTrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C12AB81DD47CCD0058A82E /* FoodTrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrainUITests.swift; sourceTree = "<group>"; };
+		66C12ABA1DD47CCD0058A82E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C12ACA1DD4A4A60058A82E /* TrainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainCell.swift; sourceTree = "<group>"; };
+		7E0E8B36EE2F55FE3EBA95C3 /* Pods-FoodTrainUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrainUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrainUITests/Pods-FoodTrainUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BD194FC96543D35B40259A8 /* Pods_FoodTrainUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTrainUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4B598400AD3CD201BB2D92 /* Pods-FoodTrain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrain/Pods-FoodTrain.debug.xcconfig"; sourceTree = "<group>"; };
+		9F64260D65DD40D96EB7421C /* Pods_FoodTrainTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTrainTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4AB800E9C99A2EBA5C3106 /* Pods-FoodTrainUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrainUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrainUITests/Pods-FoodTrainUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD2ED4D2CCFE092F9F47EF32 /* Pods-FoodTrainTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrainTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrainTests/Pods-FoodTrainTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF597E438EB438309FE114DC /* Pods_FoodTrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C12A951DD47CCD0058A82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30B89905BFE5A0260199F29 /* Pods_FoodTrain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C12AA61DD47CCD0058A82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661159325B9D21EE87FF97E1 /* Pods_FoodTrainTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C12AB11DD47CCD0058A82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448057F220E6A801A92F43B7 /* Pods_FoodTrainUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140EAC034B92A293F403BD1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F4B598400AD3CD201BB2D92 /* Pods-FoodTrain.debug.xcconfig */,
+				10273BB3B4913B8EDEA75924 /* Pods-FoodTrain.release.xcconfig */,
+				CD2ED4D2CCFE092F9F47EF32 /* Pods-FoodTrainTests.debug.xcconfig */,
+				65A015185B66626D79C4AE96 /* Pods-FoodTrainTests.release.xcconfig */,
+				7E0E8B36EE2F55FE3EBA95C3 /* Pods-FoodTrainUITests.debug.xcconfig */,
+				BD4AB800E9C99A2EBA5C3106 /* Pods-FoodTrainUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		146E76081DD4801D001B8CF2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				146E76091DD4802D001B8CF2 /* Foodtrain.swift */,
+				146E760B1DD4A044001B8CF2 /* FoodtrainManager.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		14C8B10B1DD5940C00E3FA46 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				14C8B10C1DD5941400E3FA46 /* AutoCompleteTextField.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		14C8B10E1DD59F6F00E3FA46 /* yelpAPI */ = {
+			isa = PBXGroup;
+			children = (
+				14A6D3921E0EE2E7008BEA69 /* YelpAPI.h */,
+				14A6D3931E0EE2E7008BEA69 /* YLPBusiness.h */,
+				14A6D3941E0EE2E7008BEA69 /* YLPBusiness.m */,
+				14A6D3951E0EE2E7008BEA69 /* YLPCategory.h */,
+				14A6D3961E0EE2E7008BEA69 /* YLPCategory.m */,
+				14A6D3971E0EE2E7008BEA69 /* YLPClient.h */,
+				14A6D3981E0EE2E7008BEA69 /* YLPClient.m */,
+				14A6D3991E0EE2E7008BEA69 /* YLPClient+Business.h */,
+				14A6D39A1E0EE2E7008BEA69 /* YLPClient+Business.m */,
+				14A6D39B1E0EE2E7008BEA69 /* YLPClient+PhoneSearch.h */,
+				14A6D39C1E0EE2E7008BEA69 /* YLPClient+PhoneSearch.m */,
+				14A6D39D1E0EE2E7008BEA69 /* YLPClient+Search.h */,
+				14A6D39E1E0EE2E7008BEA69 /* YLPClient+Search.m */,
+				14A6D39F1E0EE2E7008BEA69 /* YLPClientPrivate.h */,
+				14A6D3A01E0EE2E7008BEA69 /* YLPCoordinate.h */,
+				14A6D3A11E0EE2E7008BEA69 /* YLPCoordinate.m */,
+				14A6D3A21E0EE2E7008BEA69 /* YLPCoordinateDelta.h */,
+				14A6D3A31E0EE2E7008BEA69 /* YLPCoordinateDelta.m */,
+				14A6D3A41E0EE2E7008BEA69 /* YLPDeal.h */,
+				14A6D3A51E0EE2E7008BEA69 /* YLPDeal.m */,
+				14A6D3A61E0EE2E7008BEA69 /* YLPDealOption.h */,
+				14A6D3A71E0EE2E7008BEA69 /* YLPDealOption.m */,
+				14A6D3A81E0EE2E7008BEA69 /* YLPGeoBoundingBox.h */,
+				14A6D3A91E0EE2E7008BEA69 /* YLPGeoBoundingBox.m */,
+				14A6D3AA1E0EE2E7008BEA69 /* YLPGeoCoordinate.h */,
+				14A6D3AB1E0EE2E7008BEA69 /* YLPGeoCoordinate.m */,
+				14A6D3AC1E0EE2E7008BEA69 /* YLPGiftCertificate.h */,
+				14A6D3AD1E0EE2E7008BEA69 /* YLPGiftCertificate.m */,
+				14A6D3AE1E0EE2E7008BEA69 /* YLPGiftCertificateOption.h */,
+				14A6D3AF1E0EE2E7008BEA69 /* YLPGiftCertificateOption.m */,
+				14A6D3B01E0EE2E7008BEA69 /* YLPLocation.h */,
+				14A6D3B11E0EE2E7008BEA69 /* YLPLocation.m */,
+				14A6D3B21E0EE2E7008BEA69 /* YLPPhoneSearch.h */,
+				14A6D3B31E0EE2E7008BEA69 /* YLPPhoneSearch.m */,
+				14A6D3B41E0EE2E7008BEA69 /* YLPQuery.h */,
+				14A6D3B51E0EE2E7008BEA69 /* YLPQuery.m */,
+				14A6D3B61E0EE2E7008BEA69 /* YLPQueryPrivate.h */,
+				14A6D3B71E0EE2E7008BEA69 /* YLPRegion.h */,
+				14A6D3B81E0EE2E7008BEA69 /* YLPRegion.m */,
+				14A6D3B91E0EE2E7008BEA69 /* YLPResponsePrivate.h */,
+				14A6D3BA1E0EE2E7008BEA69 /* YLPReview.h */,
+				14A6D3BB1E0EE2E7008BEA69 /* YLPReview.m */,
+				14A6D3BC1E0EE2E7008BEA69 /* YLPSearch.h */,
+				14A6D3BD1E0EE2E7008BEA69 /* YLPSearch.m */,
+				14A6D3BE1E0EE2E7008BEA69 /* YLPSortType.h */,
+				14A6D3BF1E0EE2E7008BEA69 /* YLPUser.h */,
+				14A6D3C01E0EE2E7008BEA69 /* YLPUser.m */,
+			);
+			name = yelpAPI;
+			sourceTree = "<group>";
+		};
+		66C12A8F1DD47CCD0058A82E = {
+			isa = PBXGroup;
+			children = (
+				66C12A9A1DD47CCD0058A82E /* FoodTrain */,
+				66C12AAC1DD47CCD0058A82E /* FoodTrainTests */,
+				66C12AB71DD47CCD0058A82E /* FoodTrainUITests */,
+				66C12A991DD47CCD0058A82E /* Products */,
+				140EAC034B92A293F403BD1D /* Pods */,
+				954E93F6EF1E2FAF7311593B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66C12A991DD47CCD0058A82E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C12A981DD47CCD0058A82E /* FoodTrain.app */,
+				66C12AA91DD47CCD0058A82E /* FoodTrainTests.xctest */,
+				66C12AB41DD47CCD0058A82E /* FoodTrainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C12A9A1DD47CCD0058A82E /* FoodTrain */ = {
+			isa = PBXGroup;
+			children = (
+				14C8B10E1DD59F6F00E3FA46 /* yelpAPI */,
+				14C8B10B1DD5940C00E3FA46 /* Lib */,
+				146E76081DD4801D001B8CF2 /* model */,
+				66C12A9B1DD47CCD0058A82E /* AppDelegate.swift */,
+				66C12A9D1DD47CCD0058A82E /* MainMenuViewController.swift */,
+				6651D3B31DD4F1C200428EA7 /* ParticipantsViewController.swift */,
+				6651D3B51DD4F30F00428EA7 /* ParticipantsCell.swift */,
+				66C12ACA1DD4A4A60058A82E /* TrainCell.swift */,
+				66C12A9F1DD47CCD0058A82E /* Assets.xcassets */,
+				66C12AA11DD47CCD0058A82E /* Main.storyboard */,
+				66C12AA41DD47CCD0058A82E /* Info.plist */,
+				14C8B1181DD5A03B00E3FA46 /* FoodTrain-Bridging-Header.h */,
+			);
+			path = FoodTrain;
+			sourceTree = "<group>";
+		};
+		66C12AAC1DD47CCD0058A82E /* FoodTrainTests */ = {
+			isa = PBXGroup;
+			children = (
+				66C12AAD1DD47CCD0058A82E /* FoodTrainTests.swift */,
+				66C12AAF1DD47CCD0058A82E /* Info.plist */,
+			);
+			path = FoodTrainTests;
+			sourceTree = "<group>";
+		};
+		66C12AB71DD47CCD0058A82E /* FoodTrainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66C12AB81DD47CCD0058A82E /* FoodTrainUITests.swift */,
+				66C12ABA1DD47CCD0058A82E /* Info.plist */,
+			);
+			path = FoodTrainUITests;
+			sourceTree = "<group>";
+		};
+		954E93F6EF1E2FAF7311593B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF597E438EB438309FE114DC /* Pods_FoodTrain.framework */,
+				9F64260D65DD40D96EB7421C /* Pods_FoodTrainTests.framework */,
+				9BD194FC96543D35B40259A8 /* Pods_FoodTrainUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C12A971DD47CCD0058A82E /* FoodTrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C12ABD1DD47CCD0058A82E /* Build configuration list for PBXNativeTarget "FoodTrain" */;
+			buildPhases = (
+				2EAC37B2310A1DFB58D41F1D /* [CP] Check Pods Manifest.lock */,
+				66C12A941DD47CCD0058A82E /* Sources */,
+				66C12A951DD47CCD0058A82E /* Frameworks */,
+				66C12A961DD47CCD0058A82E /* Resources */,
+				BCC00CD8E22E40342AD43D06 /* [CP] Embed Pods Frameworks */,
+				7E59EAD5E4AE3D47F0C0C49A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodTrain;
+			productName = FoodTrain;
+			productReference = 66C12A981DD47CCD0058A82E /* FoodTrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66C12AA81DD47CCD0058A82E /* FoodTrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C12AC01DD47CCD0058A82E /* Build configuration list for PBXNativeTarget "FoodTrainTests" */;
+			buildPhases = (
+				A3E29C9874B49C058CD3D276 /* [CP] Check Pods Manifest.lock */,
+				66C12AA51DD47CCD0058A82E /* Sources */,
+				66C12AA61DD47CCD0058A82E /* Frameworks */,
+				66C12AA71DD47CCD0058A82E /* Resources */,
+				A8594B1F990E67B005596FB8 /* [CP] Embed Pods Frameworks */,
+				F4DD42699DD916602DA05FDC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C12AAB1DD47CCD0058A82E /* PBXTargetDependency */,
+			);
+			name = FoodTrainTests;
+			productName = FoodTrainTests;
+			productReference = 66C12AA91DD47CCD0058A82E /* FoodTrainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66C12AB31DD47CCD0058A82E /* FoodTrainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C12AC31DD47CCD0058A82E /* Build configuration list for PBXNativeTarget "FoodTrainUITests" */;
+			buildPhases = (
+				67CB65B871C0A565C87CA60F /* [CP] Check Pods Manifest.lock */,
+				66C12AB01DD47CCD0058A82E /* Sources */,
+				66C12AB11DD47CCD0058A82E /* Frameworks */,
+				66C12AB21DD47CCD0058A82E /* Resources */,
+				25F5FAFEC59B5410EB97FFA8 /* [CP] Copy Pods Resources */,
+				31E9DD8AD4F4DFA29FCFCE9C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C12AB61DD47CCD0058A82E /* PBXTargetDependency */,
+			);
+			name = FoodTrainUITests;
+			productName = FoodTrainUITests;
+			productReference = 66C12AB41DD47CCD0058A82E /* FoodTrainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C12A901DD47CCD0058A82E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Yelp;
+				TargetAttributes = {
+					66C12A971DD47CCD0058A82E = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 9G4WR25U97;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+					66C12AA81DD47CCD0058A82E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C12A971DD47CCD0058A82E;
+					};
+					66C12AB31DD47CCD0058A82E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C12A971DD47CCD0058A82E;
+					};
+				};
+			};
+			buildConfigurationList = 66C12A931DD47CCD0058A82E /* Build configuration list for PBXProject "FoodTrain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66C12A8F1DD47CCD0058A82E;
+			productRefGroup = 66C12A991DD47CCD0058A82E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C12A971DD47CCD0058A82E /* FoodTrain */,
+				66C12AA81DD47CCD0058A82E /* FoodTrainTests */,
+				66C12AB31DD47CCD0058A82E /* FoodTrainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C12A961DD47CCD0058A82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C12AA01DD47CCD0058A82E /* Assets.xcassets in Resources */,
+				66C12AA31DD47CCD0058A82E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C12AA71DD47CCD0058A82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C12AB21DD47CCD0058A82E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25F5FAFEC59B5410EB97FFA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTrainUITests/Pods-FoodTrainUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EAC37B2310A1DFB58D41F1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31E9DD8AD4F4DFA29FCFCE9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTrainUITests/Pods-FoodTrainUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67CB65B871C0A565C87CA60F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E59EAD5E4AE3D47F0C0C49A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTrain/Pods-FoodTrain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E29C9874B49C058CD3D276 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8594B1F990E67B005596FB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTrainTests/Pods-FoodTrainTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCC00CD8E22E40342AD43D06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTrain/Pods-FoodTrain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4DD42699DD916602DA05FDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTrainTests/Pods-FoodTrainTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C12A941DD47CCD0058A82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A6D3C71E0EE2E7008BEA69 /* YLPCoordinate.m in Sources */,
+				6651D3B41DD4F1C200428EA7 /* ParticipantsViewController.swift in Sources */,
+				14A6D3CA1E0EE2E7008BEA69 /* YLPDealOption.m in Sources */,
+				14C8B10D1DD5941400E3FA46 /* AutoCompleteTextField.swift in Sources */,
+				14A6D3C91E0EE2E7008BEA69 /* YLPDeal.m in Sources */,
+				14A6D3C41E0EE2E7008BEA69 /* YLPClient+Business.m in Sources */,
+				66C12A9E1DD47CCD0058A82E /* MainMenuViewController.swift in Sources */,
+				14A6D3D11E0EE2E8008BEA69 /* YLPQuery.m in Sources */,
+				14A6D3CD1E0EE2E8008BEA69 /* YLPGiftCertificate.m in Sources */,
+				14A6D3D31E0EE2E8008BEA69 /* YLPReview.m in Sources */,
+				14A6D3C21E0EE2E7008BEA69 /* YLPCategory.m in Sources */,
+				14A6D3C81E0EE2E7008BEA69 /* YLPCoordinateDelta.m in Sources */,
+				14A6D3D21E0EE2E8008BEA69 /* YLPRegion.m in Sources */,
+				14A6D3D41E0EE2E8008BEA69 /* YLPSearch.m in Sources */,
+				14A6D3D51E0EE2E8008BEA69 /* YLPUser.m in Sources */,
+				14A6D3CC1E0EE2E8008BEA69 /* YLPGeoCoordinate.m in Sources */,
+				14A6D3C51E0EE2E7008BEA69 /* YLPClient+PhoneSearch.m in Sources */,
+				14A6D3CE1E0EE2E8008BEA69 /* YLPGiftCertificateOption.m in Sources */,
+				14A6D3C31E0EE2E7008BEA69 /* YLPClient.m in Sources */,
+				66C12ACB1DD4A4A60058A82E /* TrainCell.swift in Sources */,
+				14A6D3CB1E0EE2E8008BEA69 /* YLPGeoBoundingBox.m in Sources */,
+				14A6D3D01E0EE2E8008BEA69 /* YLPPhoneSearch.m in Sources */,
+				66C12A9C1DD47CCD0058A82E /* AppDelegate.swift in Sources */,
+				14A6D3C11E0EE2E7008BEA69 /* YLPBusiness.m in Sources */,
+				146E760A1DD4802D001B8CF2 /* Foodtrain.swift in Sources */,
+				146E760C1DD4A044001B8CF2 /* FoodtrainManager.swift in Sources */,
+				14A6D3CF1E0EE2E8008BEA69 /* YLPLocation.m in Sources */,
+				14A6D3C61E0EE2E7008BEA69 /* YLPClient+Search.m in Sources */,
+				6651D3B61DD4F30F00428EA7 /* ParticipantsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C12AA51DD47CCD0058A82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C12AAE1DD47CCD0058A82E /* FoodTrainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C12AB01DD47CCD0058A82E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C12AB91DD47CCD0058A82E /* FoodTrainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66C12AAB1DD47CCD0058A82E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C12A971DD47CCD0058A82E /* FoodTrain */;
+			targetProxy = 66C12AAA1DD47CCD0058A82E /* PBXContainerItemProxy */;
+		};
+		66C12AB61DD47CCD0058A82E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C12A971DD47CCD0058A82E /* FoodTrain */;
+			targetProxy = 66C12AB51DD47CCD0058A82E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66C12AA11DD47CCD0058A82E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C12AA21DD47CCD0058A82E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66C12ABB1DD47CCD0058A82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66C12ABC1DD47CCD0058A82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		66C12ABE1DD47CCD0058A82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F4B598400AD3CD201BB2D92 /* Pods-FoodTrain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9G4WR25U97;
+				INFOPLIST_FILE = FoodTrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yelp.FoodTrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2f858667-2853-40c4-a0ce-85a509d1ea74";
+				PROVISIONING_PROFILE_SPECIFIER = "FoodTrain DevSigned";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodTrain/FoodTrain-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		66C12ABF1DD47CCD0058A82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10273BB3B4913B8EDEA75924 /* Pods-FoodTrain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9G4WR25U97;
+				INFOPLIST_FILE = FoodTrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yelp.FoodTrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2f858667-2853-40c4-a0ce-85a509d1ea74";
+				PROVISIONING_PROFILE_SPECIFIER = "FoodTrain DevSigned";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodTrain/FoodTrain-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		66C12AC11DD47CCD0058A82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2ED4D2CCFE092F9F47EF32 /* Pods-FoodTrainTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FoodTrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yelp.FoodTrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTrain.app/Contents/MacOS/FoodTrain";
+			};
+			name = Debug;
+		};
+		66C12AC21DD47CCD0058A82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A015185B66626D79C4AE96 /* Pods-FoodTrainTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FoodTrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yelp.FoodTrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTrain.app/Contents/MacOS/FoodTrain";
+			};
+			name = Release;
+		};
+		66C12AC41DD47CCD0058A82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0E8B36EE2F55FE3EBA95C3 /* Pods-FoodTrainUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FoodTrainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yelp.FoodTrainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FoodTrain;
+			};
+			name = Debug;
+		};
+		66C12AC51DD47CCD0058A82E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD4AB800E9C99A2EBA5C3106 /* Pods-FoodTrainUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FoodTrainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Yelp.FoodTrainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FoodTrain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C12A931DD47CCD0058A82E /* Build configuration list for PBXProject "FoodTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C12ABB1DD47CCD0058A82E /* Debug */,
+				66C12ABC1DD47CCD0058A82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C12ABD1DD47CCD0058A82E /* Build configuration list for PBXNativeTarget "FoodTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C12ABE1DD47CCD0058A82E /* Debug */,
+				66C12ABF1DD47CCD0058A82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C12AC01DD47CCD0058A82E /* Build configuration list for PBXNativeTarget "FoodTrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C12AC11DD47CCD0058A82E /* Debug */,
+				66C12AC21DD47CCD0058A82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C12AC31DD47CCD0058A82E /* Build configuration list for PBXNativeTarget "FoodTrainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C12AC41DD47CCD0058A82E /* Debug */,
+				66C12AC51DD47CCD0058A82E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C12A901DD47CCD0058A82E /* Project object */;
+}

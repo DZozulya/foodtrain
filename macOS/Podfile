@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :osx, '10.11'
+
+target 'FoodTrain' do
+  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FoodTrain
+  pod 'Alamofire', '~> 4.0'
+  pod 'TDOAuth', '~> 1.1'
+  
+  target 'FoodTrainTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FoodTrainUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
